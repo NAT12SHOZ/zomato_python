@@ -55,7 +55,8 @@ These datasets are merged using the Country Code column to add country names to 
 - Mid-range → Cost ≤ 1500
 - Premium → Cost > 1500
 ### The final cleaned dataset is saved as:
- - [Download Here](https://github.com/NAT12SHOZ/zomato_python/raw/refs/heads/main/zomato_merged_cleaned.csv) 
+
+- [Download Here](https://raw.githubusercontent.com/NAT12SHOZ/zomato_python/main/zomato_merged_cleaned.csv)
 
 
 ## Analysis And Visualization
