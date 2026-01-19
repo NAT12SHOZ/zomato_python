@@ -23,8 +23,8 @@ zomato-project/
 
 ## Data Set
 
--	zomato.csv – Contains restaurant information such as ratings, votes, cost, cuisines, and delivery options.
--	Country-Code.xlsx – Maps country codes to country names.
+- zomato.csv – Contains restaurant information such as ratings, votes, cost, cuisines, and delivery options.
+- Country-Code.xlsx – Maps country codes to country names.
 These datasets are merged using the Country Code column to add country names to the Zomato dataset.
 
 ## Data Processing And Cleaning
