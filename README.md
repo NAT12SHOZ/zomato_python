@@ -28,14 +28,14 @@ zomato-project/
 
   Zomato Dataset 
  
-  [Download Zomato](https://github.com/NAT12SHOZ/zomato_python/blob/main/zomato.csv)
+  [Download Zomato](https://github.com/NAT12SHOZ/zomato_python/raw/refs/heads/main/zomato.csv)
 
 
 - Country-Code.xlsx – Maps country codes to country names.
 
   Country Dataset  
 
-   [Download Country](https://github.com/NAT12SHOZ/zomato_python/raw/refs/heads/main/zomato.csv)
+   [Download Country]()
 
 
 
