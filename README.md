@@ -24,44 +24,57 @@ zomato-project/
 ## Data Set
 
 - zomato.csv – Contains restaurant information such as ratings, votes, cost, cuisines, and delivery options.
+
+
+  Zomato Dataset 
+ 
+  [Download Zomato](https://github.com/NAT12SHOZ/zomato_python/blob/main/zomato.csv)
+
+
 - Country-Code.xlsx – Maps country codes to country names.
+
+  Country Dataset  
+
+   [Download Country](https://github.com/NAT12SHOZ/zomato_python/blob/main/Country-Code.xlsx)
+
+
+
 These datasets are merged using the Country Code column to add country names to the Zomato dataset.
 
 ## Data Processing And Cleaning
 
 ### The following steps are performed:
--	Load both datasets
--	Merge Zomato and Country datasets
--	Standardize column names
--	Create a new feature: price_category
--	Analyze ratings, votes, and delivery behavior
--	Save the final merged dataset
+- Load both datasets
+- Merge Zomato and Country datasets
+- Standardize column names
+- Create a new feature: price_category
+- Analyze ratings, votes, and delivery behavior
+- Save the final merged dataset
 ### Example price category logic:
--	Budget → Cost ≤ 500
--	Mid-range → Cost ≤ 1500
--	Premium → Cost > 1500
+- Budget → Cost ≤ 500
+- Mid-range → Cost ≤ 1500
+- Premium → Cost > 1500
 ### The final cleaned dataset is saved as:
   [Download Here](data/processed/zomato_merged_cleaned.csv) 
 
 ## Analysis And Visualization
 
 ### The notebook explores:
--	Top countries by number of restaurants
--	Countries offering online delivery
--	Average restaurant rating by countries
--	Online delivery vs average rating
--	Price category vs votes and ratings
+- Top countries by number of restaurants
+- Countries offering online delivery
+- Average restaurant rating by countries
+- Online delivery vs average rating
+- Price category vs votes and ratings
 ### Sample insights:
--	India , U.S.A , U.K. contribute more in restaurant business. 
--	In online deliveries India and Dubai take the lead.
--	Restaurants offering online delivery generally perform better in ratings. 
--	Premium restaurants receive higher average votes and ratings. 
--	Country-level trends show differences in service adoption.
+- India , U.S.A , U.K. contribute more in restaurant business. 
+  In online deliveries India and Dubai take the lead.
+- Restaurants offering online delivery generally perform better in ratings. 
+- Premium restaurants receive higher average votes and ratings. 
+- Country-level trends show differences in service adoption.
 
 ## Technology Used
 
 - Excel
--    [Download data](https://github.com/NAT12SHOZ/zomato_python/blob/main/zomato.csv)
 - Python
 - Pandas
 - Matplotlib
@@ -69,10 +82,9 @@ These datasets are merged using the Country Code column to add country names to 
 - Google Coolab
 
 ## Usage
-
--	To load the cleaned dataset: 
--	import pandas as pd 
--	df = pd.read_csv("data/processed/zomato_merged_cleaned.csv")
+- To load the cleaned dataset: 
+- import pandas as pd 
+- df = pd.read_csv("data/processed/zomato_merged_cleaned.csv")
 
 ## Author
 
