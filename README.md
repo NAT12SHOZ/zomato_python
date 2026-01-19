@@ -61,6 +61,7 @@ These datasets are merged using the Country Code column to add country names to 
 ## Technology Used
 
 - Excel
+-    [Download data](https://github.com/NAT12SHOZ/zomato_python/blob/main/zomato.csv)
 - Python
 - Pandas
 - Matplotlib
