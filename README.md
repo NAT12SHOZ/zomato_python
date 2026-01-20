@@ -6,7 +6,7 @@
 This project analyzes the Zomato restaurant dataset across multiple countries to understand restaurant trends such as ratings, votes, online delivery availability, and pricing behavior. The analysis includes data cleaning, merging datasets, feature engineering, and visualization using Python.
 The goal is to extract meaningful insights about customer engagement and restaurant performance worldwide. 
 
-![Plots]](barplot.png)
+![Plots](bar_plot.png)
 
 
 <img width="1221" height="821" alt="Screenshot 2026-01-19 110405" src="https://github.com/user-attachments/assets/d712c330-dd10-4e03-9959-4f0708a34fb4" />
