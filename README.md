@@ -83,10 +83,6 @@ These datasets are merged using the Country Code column to add country names to 
 - Seaborn
 - Google Coolab
 
-## Usage
-- To load the cleaned dataset: 
-- import pandas as pd 
-- df = pd.read_csv("data/processed/zomato_merged_cleaned.csv")
 
 ## Author
 
